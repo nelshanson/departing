@@ -8,6 +8,13 @@ targets:
   departing:
     main: src/departing.cr
 
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+
+  jsonapi-serializer-cr:
+    github: andersondanilo/jsonapi-serializer-cr
+
 crystal: 0.35.1
 
 license: MIT
