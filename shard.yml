@@ -1,0 +1,13 @@
+name: departing
+version: 0.1.0
+
+authors:
+  - your-name-here <your-email-here>
+
+targets:
+  departing:
+    main: src/departing.cr
+
+crystal: 0.35.1
+
+license: MIT
