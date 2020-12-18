@@ -9,4 +9,4 @@ module Departing
 
 end
 
-Kemal.run 8081
+Kemal.run ENV["PORT"]
