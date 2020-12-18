@@ -9,4 +9,5 @@ module Departing
 
 end
 
-Kemal.run ENV["PORT"]
+Kemal.config.port = ENV["PORT"]?.try(&.to_i) || 3000
+Kemal.run
