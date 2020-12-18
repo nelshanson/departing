@@ -1,0 +1,22 @@
+version: 2.0
+shards:
+  exception_page:
+    git: https://github.com/crystal-loot/exception_page.git
+    version: 0.1.4
+
+  jsonapi-serializer-cr:
+    git: https://github.com/andersondanilo/jsonapi-serializer-cr.git
+    version: 0.1.0+git.commit.08fbe8d2270eb4747e27aaaaa9806de5d6d317f0
+
+  kemal:
+    git: https://github.com/kemalcr/kemal.git
+    version: 0.27.0
+
+  kilt:
+    git: https://github.com/jeromegn/kilt.git
+    version: 0.4.0
+
+  radix:
+    git: https://github.com/luislavena/radix.git
+    version: 0.3.9
+

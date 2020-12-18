@@ -1,6 +1,12 @@
-# TODO: Write documentation for `Departing`
-module Departing
-  VERSION = "0.1.0"
+require "kemal"
 
-  # TODO: Put your code here
+module Departing
+  
+  get "/:delayed" do |env|
+    delayed = env.params.url["delayed"]
+    render "src/views/bad_news.ecr"
+  end
+
 end
+
+Kemal.run 8081
